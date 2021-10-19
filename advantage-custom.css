@@ -42,19 +42,19 @@ font-size: 2.2rem !important;
 }
 
 .acs-h3 {
-font-size: 2rem !important;
-}
-
-.acs-h4 {
 font-size: 1.8rem !important;
 }
 
-.acs-h5 {
+.acs-h4 {
 font-size: 1.6rem !important;
 }
 
-.acs-h6 {
+.acs-h5 {
 font-size: 1.4rem !important;
+}
+
+.acs-h6 {
+font-size: 1.2rem !important;
 }
 }
 
@@ -86,8 +86,8 @@ font-weight: 700;
 --gray7: #6B6B6B;
 --dark: #4D4D4D;
 --dark2: #333333;
---dar3: #111111; 
---bold-font: 'Arial', 'Helvetica Neue', 'Helvetica' ,sans-serif;
+--dark3: #111111; 
+--bold-font: 'Arial', 'Helvetica Neue', 'Helvetica' , sans-serif;
 }
 
 
@@ -104,6 +104,21 @@ color: var(--gray)
 }
 .acs-gray2 {
 color: var(--gray2)
+}
+.acs-gray3 {
+color: var(--gray3)
+}
+.acs-gray4 {
+color: var(--gray4)
+}
+.acs-gray5 {
+color: var(--gray5)
+}
+.acs-gray6 {
+color: var(--gray6)
+}
+.acs-gray7 {
+color: var(--gray7)
 }
 .acs-dark {
 color: var(--dark)
@@ -123,6 +138,12 @@ color: var(--accent)
 .acs-accent2 {
 color: var(--accent2)
 }
+.acs-accent3 {
+color: var(--accent3)
+}
+.acs-accent4 {
+color: var(--accent4)
+}
 
 
 /* BG Colors */
@@ -132,11 +153,32 @@ background-color: var(--accent)
 .acs-bg-accent2 {
 background-color: var(--accent2)
 }
+.acs-bg-accent3 {
+background-color: var(--accent3)
+}
+.acs-bg-accent4 {
+background-color: var(--accent4)
+}
 .acs-bg-gray {
 background-color: var(--gray)
 }
 .acs-bg-gray2 {
 background-color: var(--gray2)
+}
+.acs-bg-gray3 {
+background-color: var(--gray3)
+}
+.acs-bg-gray4 {
+background-color: var(--gray4)
+}
+.acs-bg-gray5 {
+background-color: var(--gray5)
+}
+.acs-bg-gray6 {
+background-color: var(--gray6)
+}
+.acs-bg-gray7 {
+background-color: var(--gray7)
 }
 .acs-bg-dark {
 background-color: var(--dark)
