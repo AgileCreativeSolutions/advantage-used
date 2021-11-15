@@ -215,7 +215,7 @@ border-radius: 0rem;
 border: .14286rem solid var(--accent);
 display: inline-block;
 text-align: center;
-color: var(--white);
+color: var(--white) !important;
 text-decoration: none !important;
 padding: 1rem 2rem;
 font-family: 'Open Sans', sans-serif;
