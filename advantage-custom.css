@@ -360,5 +360,5 @@ border: .14286rem solid var(--gray6);
 
 /* keeps button white on safari */    
 a, a:visited, a:active, .content a {
-    color: #fff !important
+    color: none !important
 }
