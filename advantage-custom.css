@@ -356,3 +356,9 @@ color: var(--gray6);
 border: .14286rem solid var(--gray6);
 }
 /* BUTTONS: END */
+
+
+/* keeps button white on safari */    
+a, a:visited, a:active, .content a {
+    color: #fff;
+}
