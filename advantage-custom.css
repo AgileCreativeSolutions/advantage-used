@@ -1,6 +1,19 @@
-/* Font */
+/* OEM Font Embed */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/* OEM Font Embed */
 
+
+
+/* OEM Font */
+.acs-wrapper { 
+font-family: 'Arial', 'Helvetica Neue', 'Helvetica' ,sans-serif; 
+font-weight: 400
+}
+/* OEM Font */
+
+
+
+/* Heading Tags */
 .acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6 {
 font-family: 'Open Sans', sans-serif;
 font-weight: 700;
@@ -57,16 +70,27 @@ font-size: 1.4rem !important;
 font-size: 1.2rem !important;
 }
 }
+/* Heading Tags */
 
-.acs-wrapper { 
-font-family: 'Arial', 'Helvetica Neue', 'Helvetica' ,sans-serif; 
-font-weight: 400
+
+
+/* OEM Font Variables */
+.aub-brand-rg {
+font-family: 'Open Sans', sans-serif !important;
+font-weight: 400 !important;
+}
+
+.aub-brand-bd {
+font-family: 'Open Sans', sans-serif !important;
+font-weight: 700 !important;
 }
 
 .acs-bold {
 font-family: var(--bold-font);   
 font-weight: 700;
 }
+/* OEM Font Variables */
+
 
 
 /* Variables */
@@ -89,6 +113,7 @@ font-weight: 700;
 --dark3: #111111; 
 --bold-font: 'Arial', 'Helvetica Neue', 'Helvetica' , sans-serif;
 }
+/* Variables */
 
 
 
@@ -129,6 +154,8 @@ color: var(--dark2)
 .acs-dark3 {
 color: var(--dark3)
 }
+/* Text Colors */
+
 
 
 /* Accent Colors */
@@ -144,52 +171,82 @@ color: var(--accent3)
 .acs-accent4 {
 color: var(--accent4)
 }
+/* Accent Colors */
+
 
 
 /* BG Colors */
 .acs-bg-accent {
-background-color: var(--accent)
+--acs-bg-opacity: 1;
+background-color: var(--accent);
+background-color: rgba(175,22,32, var(--acs-bg-opacity))
 }
 .acs-bg-accent2 {
-background-color: var(--accent2)
+--acs-bg-opacity: 1;
+background-color: var(--accent2);
+background-color: rgba(123,18,26, var(--acs-bg-opacity))
 }
 .acs-bg-accent3 {
-background-color: var(--accent3)
+--acs-bg-opacity: 1;
+background-color: var(--accent3);
+background-color: rgba(235,176,64, var(--acs-bg-opacity))
 }
 .acs-bg-accent4 {
-background-color: var(--accent4)
+--acs-bg-opacity: 1;
+background-color: var(--accent4);
+background-color: rgba(240,186,40, var(--acs-bg-opacity))
 }
 .acs-bg-gray {
-background-color: var(--gray)
+--acs-bg-opacity: 1;
+background-color: var(--gray);
+background-color: rgba(231,231,231, var(--acs-bg-opacity))
 }
 .acs-bg-gray2 {
-background-color: var(--gray2)
+--acs-bg-opacity: 1;
+background-color: var(--gray2);
+background-color: rgba(235,235,235, var(--acs-bg-opacity))
 }
 .acs-bg-gray3 {
-background-color: var(--gray3)
+--acs-bg-opacity: 1;
+background-color: var(--gray3);
+background-color: rgba(238,238,238, var(--acs-bg-opacity))
 }
 .acs-bg-gray4 {
-background-color: var(--gray4)
+--acs-bg-opacity: 1;
+background-color: var(--gray4);
+background-color: rgba(228,228,228, var(--acs-bg-opacity))
 }
 .acs-bg-gray5 {
-background-color: var(--gray5)
+--acs-bg-opacity: 1;
+background-color: var(--gray5);
+background-color: rgba(99,100,112, var(--acs-bg-opacity))
 }
 .acs-bg-gray6 {
-background-color: var(--gray6)
+--acs-bg-opacity: 1;
+background-color: var(--gray6);
+background-color: rgba(45,46,51, var(--acs-bg-opacity))
 }
 .acs-bg-gray7 {
-background-color: var(--gray7)
+--acs-bg-opacity: 1;
+background-color: var(--gray7);
+background-color: rgba(107,107,107, var(--acs-bg-opacity))
 }
 .acs-bg-dark {
-background-color: var(--dark)
+--acs-bg-opacity: 1;
+background-color: var(--dark);
+background-color: rgba(77,77,77, var(--acs-bg-opacity))
 }
 .acs-bg-dark2 {
-background-color: var(--dark2)
+--acs-bg-opacity: 1;
+background-color: var(--dark2);
+background-color: rgba(51,51,51, var(--acs-bg-opacity))
 }
 .acs-bg-dark3 {
-background-color: var(--dark3)
+--acs-bg-opacity: 1;
+background-color: var(--dark3);
+background-color: rgba(17,17,17, var(--acs-bg-opacity))
 }
-
+/* BG Colors */
 
 
 
@@ -205,6 +262,8 @@ font-weight: 700;
 text-decoration: underline;
 color: var(--accent2) !important; 
 }
+/* Link Accent */
+
 
 
 /* BUTTONS: START */
@@ -360,5 +419,5 @@ border: .14286rem solid var(--gray6);
 
 /* keeps button white on safari */    
 a, a:visited, a:active, .content a {
-    color: none !important
+color: none !important
 }
